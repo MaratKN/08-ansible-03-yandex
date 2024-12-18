@@ -42,12 +42,17 @@ sudo ansible-lint site.yml
 ![alt text](https://github.com/MaratKN/08-ansible-03-yandex/blob/main/5.png)
 
 git add .
+
 git commit -m "1812"
+
 git push origin main
+
 git tag -a 08-ansible-03-yandex -m "tag_ansible"
+
 git push --tags
 
 [Playbook](https://github.com/MaratKN/08-ansible-03-yandex/tree/main/playbook)
+
 [Tag](https://github.com/MaratKN/08-ansible-03-yandex/releases/tag/08-ansible-03-yandex)
 
 
