@@ -1,0 +1,24 @@
+---
+clickhouse:
+  hosts:
+    clickhouse-01:
+      ansible_connection: ssh
+      ansible_ssh_user: marat
+      ansible_host: 158.160.14.236
+      ansible_private_key_file: /home/marat/.ssh/id_ed25519
+
+vector:
+  hosts:
+    vector-01:
+      ansible_connection: ssh
+      ansible_ssh_user: marat
+      ansible_host: 158.160.85.246
+      ansible_private_key_file: /home/marat/.ssh/id_ed25519
+
+lighthouse:
+  hosts:
+    lighthouse-01:
+      ansible_connection: ssh
+      ansible_ssh_user: marat
+      ansible_host: 158.160.85.99
+      ansible_private_key_file: /home/marat/.ssh/id_ed25519
